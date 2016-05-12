@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCustomView">
+        <attr name="customColor" format="color" />
+        <attr name="customString" format="string"/>
+        <attr name="customLength" format="dimension"/>
+    </declare-styleable>
+    //这个属性是为了在Theme中增加可以配置的style.
+    <attr name="CustomViewStyle" format="reference"/>
+</resources>
